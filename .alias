@@ -1,0 +1,3 @@
+alias setdev="export NODE_ENV=development"
+alias dev="yarn run dev"
+alias build="yarn run build"
