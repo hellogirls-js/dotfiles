@@ -1,0 +1,123 @@
+
+
+* {
+    -XfceTasklist-max-button-size: 0;
+}
+
+.flat:hover {
+    background: transparent;
+    border: none;
+    text-shadow: none;
+    box-shadow: none;
+}
+
+.xfce4-panel {
+    color: transparent;
+    background-color: #fff;
+    border: none;
+}
+
+.xfce4-panel.background.horizontal.panel {
+    border-bottom: 5px solid #72d1e9;
+}
+
+.xfce4-panel .tasklist .toggle, #clock-button, #pager-8 button {
+    color: #f189e4;
+    font-size: 15px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding: 10px 15px;
+    text-shadow: none;
+    border-radius: 0px;
+    font-weight: 500;
+}
+
+.xfce4-panel .tasklist .toggle:hover, #clock-button:hover {
+    background: #ece8ec;
+    border: none;
+    text-shadow: none;
+} 
+
+.xfce4-panel .tasklist .toggle:checked, #clock-button:checked {
+    background: #72d1e9;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.xfce4-panel .tasklist .toggle {
+    border-right: 1px solid #e3f1fa;
+}
+
+.xfce4-panel .tasklist .toggle:first-child {
+    border-left: 1px solid #e3f1fa;
+}
+
+.xfce4-panel .tasklist .toggle:last-child {
+    border-right: none;
+}
+
+#pager-8 button {
+    margin: 2px;
+    padding: 10px 4px;
+}
+
+#clock-button {
+    font-weight: bold;
+}
+
+#pager-8 button:hover {
+    background: transparent;
+    color: #72d1e9;
+    border: none;
+    text-shadow: none;
+}
+
+#pager-8 button:checked {
+    color: #72d1e9;
+    font-weight: bold;
+    border: 1px solid #72d1e9;
+    background: transparent;
+}
+
+.tasklist image {
+	-gtk-icon-transform: scale(0); margin: -10px;
+}
+
+#pulseaudio-button, #xfce4-notification-plugin, #sn-button {
+    background-color: transparent;
+    color: #f189e4;
+}
+
+#pulseaudio-button:hover, #xfce4-notification-plugin:hover, #sn-button:hover {
+    background-color: #fff;
+    color: #84d6f7;
+    border: none;
+}
+
+#pulseaudio-button:checked, #xfce4-notification-plugin:checked, #sn-button:checked {
+    background-color: #84d6f7;
+    color: #fff;
+    border: none;
+}
+
+#pulseaudio-button *, #xfce4-notification-plugin * { 
+    /* -gtk-icon-transform: scale(0.5);  */
+    margin: 4px;
+}
+
+#pulseaudio-button menu .linked button {
+    color: #ffbef6;
+    margin: 0;
+}
+
+#actions-button, #launcher-11 button {
+	color: #f189e4;
+    font-size: 25px;
+    font-weight: bolder;
+}
+    
+    
+    
